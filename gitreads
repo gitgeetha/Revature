@@ -1,0 +1,53 @@
+[200~
+git clone https://github.com/gitgeetha/Revature.git
+Cloning  ..copy URL from the repository
+cd Revature  ..making Revature current  depository
+git branch Gits  ...creating branch Gits
+git checkout gits ... Switched to branch gits 
+ls 
+
+
+** git config --global user.email "write2ggc@gmail.com"
+cd Christina-6-29-20-ROCP-I/
+//go to christianas repository
+ls
+// making a  custom branch called "geetha_George"
+git branch geetha_george
+// to switch to custom branch
+git checkout geetha_george
+// To initialize the custom branch
+// git init
+
+// Creating a file called myfood
+touch myfood
+//Entering details in myfood
+//Escape + : wq to save and exit .....wq! to exit
+vim myfood
+
+//adding to custom branch repository
+git add myfood
+
+//commiting
+git commit -m "My answer"
+
+
+// Pushing to repository geetha_george ..remote
+git push origin geetha_george
+
+
+To create custom branch   
+git branch branchname
+To switch into custom branch
+git checkout branchname
+To initialize in the custom branch
+git init
+To add files in the custom branch
+git add file name
+To commit the changes made in the custom branch
+git commit -m "your message"
+To make changes in your GitHub repo
+// Pushing to repository geetha_george ..remote
+git push origin geetha_george
+
+https://www.datacamp.com/community/tutorials/git-push-pull
+
